@@ -45,7 +45,7 @@ public static void reverse(int arr[],int start,int end) {
 	}
 }
 	public static void main(String args[]) {
-		int arr[]= {3,2,1};
+		int arr[]= {1,3,2};
 		nextPermutation(arr);
 		System.out.println(Arrays.toString(arr));
 	}
