@@ -16,12 +16,8 @@ public static void main(String args[]) {
 		}
 		if(isUnique) {
 			System.out.println("first nonRepeatating charecter is "+arr[i]);
-			break;
-			
+			break;		
 		}
 	}
-
 }
-
-
 }
