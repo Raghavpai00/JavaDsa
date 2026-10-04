@@ -18,7 +18,7 @@ public static void main(String args[]) {
 	}
 //System.out.print(Arrays.toString(union));
 	for(int k=0;k<union.length;k++) {
-		System.out.print(union[k]+" ");
+		System.out.print(union[k]+"  ");
 	}
 }
 }
