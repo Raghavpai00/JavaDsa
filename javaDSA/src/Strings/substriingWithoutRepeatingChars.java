@@ -12,7 +12,7 @@ public class substriingWithoutRepeatingChars {
 		
 		for(int i=0;i<str.length();i++) {
 			while(set.contains(str.charAt(i))) {
-				set.remove(str.charAt(i));
+				set.remove(str.charAt(left));
 				left++;
 			}
 			set.add(str.charAt(i));
