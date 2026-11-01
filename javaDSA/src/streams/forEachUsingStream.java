@@ -12,5 +12,7 @@ public class forEachUsingStream {
 				list.stream()
 				.filter(elem->elem%2==0)
 				.forEach(elem->System.out.println(elem));
+				
+			
 	}
 }
